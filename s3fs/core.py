@@ -80,7 +80,7 @@ class S3FileSystem(object):
     """
     Access S3 as if it were a file system.
 
-    This exposes a filesystem-like API (ls, cp, open, etc.) on top of S3
+    This exposes a filesystem-like API (ls, mv, open, etc.) on top of S3
     storage.
 
     Provide credentials either explicitly (``key=``, ``secret=``) or depend
